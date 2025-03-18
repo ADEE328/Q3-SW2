@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://i.pinimg.com/736x/bc/4d/0b/bc4d0b81cdb7ca11301e9c32b0149673.jpg'); /* Use your uploaded background */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90vh; /* Increased height */
+  max-width: 1200px; /* Increased width */
+  margin: 30px auto;
+  background-color: rgba(0, 123, 167, 0.85); /* Slightly stronger overlay */
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+  padding: 30px;
+}
+
+
+.robot-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.robot-img {
+  width: 150px;
+}
+
+.math-section {
+  flex: 1;
+  padding: 20px;
+  color: white;
+}
+
+.gizmo {
+  color: navy;
+}
+
+.input-section {
+  margin: 15px 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border: 1px dashed white;
+  border-radius: 10px;
+}
+
+.input-section input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+.button-section button {
+  display: inline-block;
+  margin: 10px 5px 0 0;
+  padding: 10px 20px;
+  background-color: cyan;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-section button:hover {
+  background-color: #00bcd4;
+}
